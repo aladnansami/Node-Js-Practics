@@ -29,4 +29,8 @@ let a1 = 2
 let a2 = 3
 console.log(a==b)
 
-//
+// random 
+let min = 10
+let max= 100;
+let rand = parseInt(Math.random()*(max-min)+min)
+console.log(rand)
